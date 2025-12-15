@@ -171,3 +171,10 @@ background-attachment: fixed;
     font-size: 15px;
     box-sizing: border-box;
 }
+.grid{
+    display: grid;
+    grid-template-columns: repeat (3, 1fr);
+    gap: 20px;
+    width: 90%;
+    margin: 40px auto;
+}
